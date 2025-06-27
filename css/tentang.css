@@ -1,0 +1,31 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* HMI Colors */
+.bg-hmi-green {
+    background-color: #007a3d; /* Warna hijau khas HMI */
+}
+
+.text-hmi-green {
+    color: #007a3d;
+}
+
+header {
+    background: linear-gradient(90deg, #007a3d, #004f2d);
+}
+
+/* Section Styles */
+h1, h2 {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.8;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 0.9rem;
+}
