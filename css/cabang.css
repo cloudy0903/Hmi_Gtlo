@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9f7ef;
+}
+
+.sidebar {
+    width: 250px;
+    background : #007a3d;
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar .nav-item {
+    padding: 10px 20px;
+}
+
+.sidebar .nav-item .btn {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    text-align: left;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+.sidebar .nav-item .btn:hover {
+    background : #007a3d;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 8px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.sidebar .profile {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sidebar .profile i {
+    font-size: 3rem;
+}
+
+.sidebar .profile span {
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #fff;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.welcome-section {
+    background: #007a3d;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.welcome-section img {
+    max-width: 100%;
+}
+
+.welcome-section .welcome-image {
+    max-width: 400px;
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+}
+
+.btn-primary-custom {
+    background : #007a3d;
+    border: none;
+}
+
+.btn-primary-custom:hover {
+    background : #007a3d;
+}
+
+.additional-section {
+    margin-top: 30px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.additional-section h2 {
+    color: #1d5636;
+}
+
+.additional-section .feature {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.additional-section .feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.feature i {
+    font-size: 3rem;
+}

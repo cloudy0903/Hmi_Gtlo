@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #007a3d; /* Hijau khas HMI */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #ffffff;
+}
+
+.login-card {
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    color: #000000;
+}
+
+.login-title {
+    font-weight: bold;
+    color: #007a3d;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #007a3d;
+}
+
+.login-btn {
+    background-color: #007a3d;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #005a29;
+    transform: scale(1.02);
+}
+
+.kembali-btn {
+    background-color: #6c757d; /* Hijau khas HMI */
+    color: #ffffff; /* Putih */
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none; /* Hilangkan garis bawah */
+    outline: none; /* Hindari garis saat di klik */
+}
+
+.kembali-btn:hover {
+    background-color: #6c757d; /* Hijau lebih gelap */
+    transform: translateY(-2px);
+    text-decoration: none; /* Pastikan tetap tanpa garis */
+}
+
+.kembali-btn:focus {
+    outline: none; /* Hindari garis saat tombol fokus */
+}
+
+a {
+    color: #007a3d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005a29;
+    text-decoration: underline;
+}

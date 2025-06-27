@@ -4,13 +4,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HMI Cabang Gorontalo</title>
+  <link rel="stylesheet" href="css/index.css">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
   <link rel="shortcut icon" type="image" href="image/hmi_mpo_gtlo.png">
+  <style>
+    /* Navbar Styling */
+.navbar {
+  background: linear-gradient(90deg, #007a3d,#007a3d);
+}
+.navbar-brand img {
+  height: 50px;
+}
+.navbar-brand strong {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: 500;
+  margin: auto s;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #d4d4d4;
+}
 
+/* Fullscreen Hero Section Styling */
+.hero {
+  background: linear-gradient(to bottom right,#d4d4d4,#007a3d,  #d4d4d4 );
+  color: white;
+  text-align: center;
+  height: 70vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.hero .btn-primary {
+  background: white;
+  border: none;
+  color: #007a3d;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.hero .btn-primary:hover {
+  background: white;
+  transform: scale(1.1);
+  color: #007a3d;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+}
+footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+footer .social-icons a {
+  font-size: 24px;
+  margin: 0 10px;
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+footer .social-icons a:hover {
+  color: #d4d4d4;
+  transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .navbar-brand strong {
+    font-size: 16px;
+  }
+}
+  </style>
 </head>
 <body>
   <!-- Navbar Section -->
